@@ -19,11 +19,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/Home/Index">Bertuğ YILMAZ</a>
+          <%= link_to 'Bertuğ YILMAZ', home_index_path, class: "navbar-brand" %>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/About/Index">About</a></li>
+            <li><%= link_to 'About', about_index_path %></li>
             <li><a href="/Blog/Index">Blog</a></li>
             <li><a href="/Contact/Index">Contact</a></li>
           </ul>
