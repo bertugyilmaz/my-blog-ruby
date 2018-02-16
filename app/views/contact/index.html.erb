@@ -1,2 +1,29 @@
-<h1>Contact#index</h1>
-<p>Add my contactable urls</p>
+<%= content_tag :div, class: "container" do -%>
+  <%= content_tag :div, class: "linkContainer" do%>
+    <%= content_tag :div, class: "row" do %>
+      <%= mail_to "ylmazbertug@gmail.com" do %>
+        <%= "You can send mail.."%>
+        <%= fa_icon "plane" %>
+      <%end%>
+    <%end%>
+    <%= content_tag :div, class: "row" do %>
+      <%= content_tag :p, "OR", class: "divider" %>
+    <%end%>
+    <%= content_tag :div, class: "row" do %>
+      <%= link_to "https://github.com/bertugylmaz/", class: "" do %>
+        <%= fa_icon "github 2x" %>
+      <%end%>
+      <%= link_to "https://www.linkedin.com/in/bertugyilmaz/" do %>
+        <%= fa_icon "linkedin 2x" %>
+      <%end%>
+      <%= link_to "https://twitter.com/bertugylmaz" do %>
+        <%= fa_icon "twitter 2x" %>
+      <%end%>
+      <%= link_to "https://www.instagram.com/bertugylmaz/" do %>
+        <%= fa_icon "instagram 2x" %>
+      <%end%>
+    <%end%>
+
+  <% end %>
+
+<% end %>

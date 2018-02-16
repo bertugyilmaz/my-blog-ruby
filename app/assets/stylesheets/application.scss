@@ -62,6 +62,21 @@ a {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+.linkContainer {
+  margin: 100px auto;
+  width: 190px;
+  text-align: center;
+}
+
+.linkContainer a {
+  color: #2F2F2F;
+  margin-right: 20px;
+}
+
+.linkContainer a:hover {
+  color: #D15A1A;
+}
+
 a:hover,
 a:focus {
   color: #7b7b7b;
@@ -85,6 +100,14 @@ hr {
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0;
+}
+
+.divider {
+  color: #D15A1A;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 20px 20px 0;
+  text-align: center;
 }
 
 .navbar {
