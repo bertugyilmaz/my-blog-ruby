@@ -13,7 +13,27 @@
           beyazından siyah eksik olmayan BEŞİKTAŞ lı ,sporla uğraşmaktan deli gibi zevk alan arta kalan zamanlarında kitap okumak için can atan,
           yeri geldi mi neşeden çıldıran bir o kadarda ciddiyetine düşkün birisi düşünün işte o benim!</p>
 
+        <!-- Links -->
+        <%= content_tag :div, class: "row" do %>
+          <%= link_to "https://github.com/bertugylmaz/", class: "social-icon" do %>
+            <%= fa_icon "github 2x" %>
+          <%end%>
+          <%= link_to "https://www.linkedin.com/in/bertugyilmaz/", class: "social-icon" do %>
+            <%= fa_icon "linkedin 2x" %>
+          <%end%>
+          <%= link_to "https://twitter.com/bertugylmaz", class: "social-icon" do %>
+            <%= fa_icon "twitter 2x" %>
+          <%end%>
+          <%= link_to "https://www.instagram.com/bertugylmaz/", class: "social-icon" do %>
+            <%= fa_icon "instagram 2x" %>
+          <%end%>
+          <%= mail_to "ylmazbertug@gmail.com", class: "social-icon" do %>
+            <%= fa_icon "envelope-o 2x" %>
+          <%end%>
+        <%end%>
+
       </div><!-- /col-lg-8 -->
     </div><!-- /row -->
   </div> <!-- /container -->
 </div><!-- /ww -->
+
