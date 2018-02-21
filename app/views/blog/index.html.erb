@@ -1,4 +1,16 @@
 <!-- +++++ Posts Lists +++++ -->
-
-<%= render :partial => 'blog/post', :collection => @articles %>
-
+<% @articles.each do |article| %>
+  <%= content_tag :div, class: "ww" do %>
+    <%= content_tag :div, class: "container" do%>
+      <%= content_tag :div, class: "row" do %>
+        <%= content_tag :div, class: "col-lg-8 col-lg-offset-2" do %>
+          <p><%= image_tag "pp.png", class: "avatar-min" %></p>
+          <p><%= article.created_at.strftime("%B %d %Y")%></p>
+          <h4><%= article.title %></h4>
+          <p><%= article.content.truncate(600)%></p>
+          <p><%= link_to "Okumaya devam et...", blog_path(article) %></p>
+        <%end%>
+      <%end%>
+    <%end%>
+  <%end%>
+<%end%>
