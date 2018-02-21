@@ -39,7 +39,7 @@
           <div class="col-lg-6">
             <h4>Son Paylaşılanlar</h4>
             <%= @articles.last(4).each do |article| %>
-              <%= linkt_to article.title, blog_index_path(article) %>
+              <%= link_to article.title, blog_index_path(article) %>
             <%end%>
           </div><!-- /col-lg-4 -->
 
