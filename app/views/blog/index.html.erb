@@ -1,6 +1,6 @@
 <!-- +++++ Posts Lists +++++ -->
 <% @articles.each do |article| %>
-  <%= content_tag :div, class: "ww" do %>
+ <div id= <%= article.id % 2  == 1 ? "grey" : "white" %>>
     <%= content_tag :div, class: "container" do%>
       <%= content_tag :div, class: "row" do %>
         <%= content_tag :div, class: "col-lg-8 col-lg-offset-2" do %>
@@ -12,5 +12,5 @@
         <%end%>
       <%end%>
     <%end%>
-  <%end%>
+  </div>
 <%end%>
