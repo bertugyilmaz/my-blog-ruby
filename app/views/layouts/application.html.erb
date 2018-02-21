@@ -38,8 +38,8 @@
         <div class="row">
           <div class="col-lg-6">
             <h4>Son Paylaşılanlar</h4>
-            <%= @articles.last(4).each do |article| %>
-              <%= link_to article.title, blog_index_path(article)%>
+            <%= @recent_posts.each do |article| %>
+              <%= link_to article.title, blog_path(article)%>
             <%end%>
           </div><!-- /col-lg-4 -->
 
