@@ -14,4 +14,11 @@ ActiveAdmin.register Article do
 #
   permit_params :title, :content
 
+  index do
+    column :title
+    column :subtitle
+    column "Release Date", :created_at
+    strong { link_to "View All Products", admin_articles_path }
+  end
+
 end
