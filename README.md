@@ -1,24 +1,14 @@
-# README
+## What's this project?
+This project was developed to take steps on ruby on rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## TODO
+* Write test case
+* Add pagination on blog page
+* Bug fix!
 
-Things you may want to cover:
+## Dependicies
+* Ruby version 2.4.1
+* Rails version 5.1.4
+* ActiveAdmin
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ 
