@@ -62,14 +62,9 @@ a {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-
 .social-icon {
   color: #2F2F2F;
   margin-right: 20px;
-}
-
-.linkContainer a:hover {
-  color: #D15A1A;
 }
 
 a:hover,
@@ -95,14 +90,6 @@ hr {
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0;
-}
-
-.divider {
-  color: #D15A1A;
-  font-size: 18px;
-  font-weight: bold;
-  margin: 20px 20px 20px 0;
-  text-align: center;
 }
 
 .navbar {
@@ -157,6 +144,11 @@ hr {
 .pt {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.pl {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* +++++ WRAP SECTIONS +++++ */
@@ -267,16 +259,8 @@ bt {
 }
 
 .avatar-min {
-  margin-top: 20px;
-  width: 5%;
-  height: 5%;
-  /* border: 8px solid #2f2f2f;*/
-  border-radius: 50%;
-}
-
-#postAvatar {
-  width: 5%;
-  height: 5%;
+  width: 4%;
+  height: 4%;
   /* border: 8px solid #2f2f2f;*/
   border-radius: 50%;
 }
